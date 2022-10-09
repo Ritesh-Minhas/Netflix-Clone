@@ -124,6 +124,7 @@ p {
 
 .new-user-sign-up {
     color: white;
+    text-decoration: none;
     cursor: pointer;
 }
 
