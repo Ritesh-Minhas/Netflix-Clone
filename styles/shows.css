@@ -1,0 +1,127 @@
+.shows-thumbnails-genre {
+    position: absolute;
+    bottom: 175px;
+    left: 55px;
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(229, 229, 229);
+    cursor: pointer;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.shows-explore-all {
+    padding: 2px 0px 0px 12px;
+    color: rgb(84, 185, 197);
+    font-size: 13px;
+    font-weight: 700;
+
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.shows-thumbnails-genre:hover .shows-explore-all {
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+.shows-thumbnails-grid {
+    position: absolute;
+    bottom: 4px;
+    padding-left: 55px;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 6px;
+    height: 160px;
+    background-image: linear-gradient(180deg, transparent, rgb(0, 0, 0, 0.8));
+}
+
+.all-shows-thumbnails-genre {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    font-size: 22px;
+    font-weight: 700;
+    padding: 17px 0px 13px 55px;
+    color: rgb(229, 229, 229);
+    cursor: pointer;
+}
+
+.all-shows-explore-all {
+    padding: 2px 0px 0px 12px;
+    color: rgb(84, 185, 197);
+    font-size: 13px;
+    font-weight: 700;
+
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.all-shows-thumbnails-genre:hover .all-shows-explore-all {
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+.all-shows-thumbnails-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 6px;
+    padding-left: 55px;
+    padding-bottom: 29px;
+}
+
+.all-shows-thumbnails-grid-cw {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 6px;
+    padding-left: 55px;
+    padding-bottom: 29px;
+    width: 230px;
+}
+
+
+.shows-thumbnails,
+.shows-thumbnails-cw1,
+.shows-thumbnails-cw2,
+.shows-thumbnails-cw3,
+.shows-thumbnails-cw4 {
+    cursor: pointer;
+}
+
+.shows-thumbnails-cw1,
+.shows-thumbnails-cw2,
+.shows-thumbnails-cw3,
+.shows-thumbnails-cw4 {
+    border-bottom: 3px solid red;
+}
+
+.shows-thumbnails-cw1 {
+    width: 75%;
+}
+
+.shows-thumbnails-cw2 {
+    width: 35%;
+}
+
+.shows-thumbnails-cw3 {
+    width: 85%;
+}
+
+.shows-thumbnails-cw4 {
+    width: 55%;
+}
+
+.shows-thumbnails-img {
+    width: 230px;
+    border-radius: 4px;
+}
+
+.shows-thumbnails-img:hover {
+    transform: scale(1.3);
+}

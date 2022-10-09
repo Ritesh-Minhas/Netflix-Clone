@@ -1,0 +1,75 @@
+body {
+    background-color: rgba(0, 0, 0, 0.93);
+    text-align: center;
+}
+
+a, p {
+    color: grey;
+    font-family: "PT Sans";
+    font-size: 20px;
+    margin-top: 2px;
+    margin-bottom: 0;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.logo {
+    text-align: left;
+    margin-top: 18px;
+    margin-left: 47px;
+    cursor: pointer;
+}
+
+.logo-img {
+    width: 100px;
+}
+
+.who {
+    color: rgb(255, 255, 255);
+    font-family: "PT Sans";
+    font-size: 57px;
+    margin-top: 125px;
+    cursor: default;
+}
+
+.profile-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 27px;
+    margin-top: 12px;
+    margin-left: 325px;
+    margin-right: 325px;
+}
+
+.profile-pic {
+    margin-top: 12px;
+    width: 100%;
+    border: 3px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.profile-col:hover > a .profile-pic {
+    border: 3px solid white;
+}
+
+.profile-col:hover > a p {
+    color: white;
+}
+
+.btn {
+    font-size: 19px;
+    font-family: "PT Sans";
+    margin-top: 85px;
+    border: 1px solid grey;
+    color: grey;
+    background-color: transparent;
+    padding: 8px 31px;
+    cursor: pointer;
+    transition: border-color 0.15s, color 0.15s;
+}
+
+.btn:hover {
+    color: white;
+    border-color: white;
+}

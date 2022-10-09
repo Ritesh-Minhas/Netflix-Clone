@@ -1,0 +1,126 @@
+.main-show-thumbnail {
+    position: relative;
+}
+
+.shadow {
+    position: absolute;
+    top: 55px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.28);
+}
+
+.main-title-img {
+    width: 100%;
+}
+
+.main-show-title {
+    position: absolute;
+    left: 50px;
+    bottom: 447px;
+    font-size: 101px;
+    font-weight: 700;
+    color: rgb(248, 39, 50);
+    cursor: default;
+}
+
+.main-show-desc {
+    position: absolute;
+    left: 50px;
+    bottom: 385px;
+    color: white;
+    font-size: 17.5px;
+    width: 510px;
+    padding-left: 7px;
+    cursor: default;
+}
+
+.main-show-play-icon {
+    position: absolute;
+    bottom: 315px;
+    left: 55px;
+    width: 69px;
+    background-color: rgb(255, 255, 255);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px 27px 9px 23px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.main-show-play-icon:hover {
+    background-color: rgba(255, 255, 255, 0.8)
+}
+
+.play-icon {
+    width: 25px;
+}
+
+.play {
+    font-size: 17.5px;
+    font-weight: 700;
+}
+
+.main-show-more-info {
+    position: absolute;
+    bottom: 315px;
+    left: 195px;
+    width: 115px;
+    background-color: rgba(109, 109, 110, 0.7);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 23px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.main-show-more-info:hover {
+    background-color: rgba(109, 109, 110, 0.3);
+}
+
+.info-icon {
+    width: 21px;
+}
+
+.more-info {
+    font-size: 17.5px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+.rating-info-container {
+    position: absolute;
+    bottom: 305px;
+    right: 0;
+    height: 35px;
+    width: 185px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.reload-icon {
+    width: 18px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 18px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.reload-icon:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.rating-info {
+    color: rgb(255, 255, 255);
+    background-color: rgba(51, 51, 51, 0.6);
+    padding: 10px 60px 10px 10px;
+    border-left: 3px solid rgb(220, 220, 220);
+    cursor: default;
+}

@@ -1,0 +1,121 @@
+body {
+    font-family: Helvetica;
+    margin: 0;
+    overflow: hidden;
+}
+
+.background-img {
+    position: relative;
+}
+
+.background-img-width {
+    width: 100%;
+}
+
+.shadow {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 21%, transparent 25%,
+    transparent 60%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+.netflix-logo {
+    margin-top: -11px;
+    margin-left: 29px;
+    width: 200px;
+    cursor: default;
+}
+
+.sign-in-button-pos {
+    position: absolute;
+    top: 26px;
+    right: 59px;
+}
+
+.sign-in-button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(229, 9, 20);
+    font-size: 15px;
+    padding: 7px 17px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.netflix-desc-info {
+    position: absolute;
+    top: 25%;
+    left: 30%;
+
+    font-size: 60px;
+    font-weight: 700;
+    width: 610px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.netflix-desc-sch {
+    position: absolute;
+    top: 48%;
+    left: 37%;
+
+    font-size: 26px;
+    color: rgb(255, 255, 255);
+}
+
+.ready-to-watch {
+    position: absolute;
+    top: 54.3%;
+    left: 31%;
+
+    font-size: 19px;
+    color: rgb(255, 255, 255);
+}
+
+.email-box-container {
+    position: absolute;
+    top: 59%;
+    left: 26%
+}
+
+.email-box {
+    font-size: 20px;
+    width: 500px;
+    height: 60px;
+    padding: 2px 0px 0px 5px;
+    border-radius: 2px;
+}
+
+.email-box::placeholder {
+    font-size: 15px;
+    color: rgb(140, 140, 140);
+}
+
+.get-started-button {
+    position: absolute;
+    top: 59.1%;
+    left: 59%;
+
+    font-size: 26px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(229, 9, 20);
+
+    
+    margin-left: -5px;
+    width: 215px;
+    height: 65.2px;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-left: 1px solid rgb(51, 51, 51);
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.get-started-button:hover {
+    background-color: rgb(247, 12, 23);
+}
